@@ -13,8 +13,8 @@
   <body>
     <header>
 
-    <form class="" action="index.php" method="get" >
-        <input type="text"  name="day" placeholder="Choisissez un jour">
+    <form class="" action="index.php" method="get" onsubmit="return verifForm(this)" >
+        <input type="text"  name="day" placeholder="Choisissez un jour" autofocus>
         <button type="button" name="button">Vas-y !</button>
     </form>
 

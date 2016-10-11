@@ -1,14 +1,12 @@
 // Création d'une fonction qui permettra de vérifier la longueur du champ
-/*function verifChamp(champ)
+function verifChamp(champ)
 {
 	if (champ.value.length <5 || champ.value.length > 8 )
 	{
-
 		return false;
 	}
 	else
 	{
-
 		return true;
 	}
 }

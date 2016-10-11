@@ -31,6 +31,47 @@ form
   text-align: center;
 }
 
+form input
+{
+  height: 30px;
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 5px;
+  color: white;
+  border : 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;
+}
+
+:-ms-input-placeholder {
+   color: white;
+}
+
+form button
+{
+  height: 30px;
+  width: 70px;
+  margin: 5px;
+  font-size: 15px;
+  font-family: 'Ubuntu', sans-serif;
+  border : 0;
+  border-radius: 3px;
+}
+
+
+
+
 section
 {
   text-align: center;
@@ -42,6 +83,6 @@ div{
   border-radius: 5px;
   display: inline-block;
   margin: 20px;
-  padding: 10px;
+  padding: 20px;
 
 }
