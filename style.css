@@ -1,0 +1,47 @@
+/**** CSS *****/
+
+/**** reset CSS ****/
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+header
+{
+  display: flex;
+  justify-content: center;
+}
+
+form
+{
+  width: 30%;
+  margin: 20px;
+  padding: 10px;
+  background-color: #E00844;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+section
+{
+  text-align: center;
+}
+
+div{
+  width: 20%;
+  background: #C3C3C3;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+
+}
